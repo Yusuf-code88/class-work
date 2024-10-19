@@ -9,4 +9,54 @@
   margin: 0 auto;
 }
 
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.section2 h1 {
+  font-size: 60px;
+  letter-spacing: -1px;
+  color: #151515;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2509803922);
+}
+.section2 p {
+  color: #222222;
+  margin-top: 30px;
+}
+.section2 button {
+  width: 189px;
+  height: 50px;
+  background-color: #4737FF;
+  color: white;
+  border: none;
+  margin-top: 50px;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: #0d0568;
+}
+
+.yusuf-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box2 {
+  margin-right: -450px;
+  margin-top: 280px;
+  position: relative;
+}
+
+.box1 {
+  margin-top: 50px;
+}
+
 /*# sourceMappingURL=main.css.map */
